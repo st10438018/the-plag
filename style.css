@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Green Leaf Botanicals</title>
+    <img src="images/istockphoto-1454086665-612x612.jpg" alt="Green Leaf Botanicals Logo" style="max-width: 150px; border-radius: 50%;">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Green Leaf Botanicals</h1>
+        <p>Our Story & Mission</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Shop Products</a></li>
+            <li><a href="enquiry.html">Place Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Who We Are</h2>
+        <p>Welcome to Green Leaf Botanicals. We are dedicated to providing our community with the highest quality, naturally sourced botanical products. Our journey started with a simple belief: nature provides the best remedies for relaxation and wellness.</p>
+        
+        <h2>Our Promise</h2>
+        <p>All our strains, tinctures, and products are carefully selected and rigorously tested to ensure purity, potency, and safety. Whether you are looking for an uplifting daytime experience or a soothing evening unwind, our knowledgeable team is here to guide you.</p>
+    </main>
+
+    <footer>
+        <p>&copy; Thembe jr.Dyantyi (st10438018). Academic Project.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

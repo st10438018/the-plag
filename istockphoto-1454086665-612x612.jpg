@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order | Green Leaf Botanicals</title>
+    <img src="images/istockphoto-1454086665-612x612.jpg" alt="Green Leaf Botanicals Logo" style="max-width: 150px; border-radius: 50%;">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Green Leaf Botanicals</h1>
+        <p>Secure Checkout</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Shop Products</a></li>
+            <li><a href="enquiry.html">Place Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Order Form</h2>
+        <form id="orderForm" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="product">Select Product:</label>
+                <select id="product" name="product" required>
+                    <option value="">-- Choose a Product --</option>
+                    <option value="sativa">Sativa Blend</option>
+                    <option value="indica">Indica Reserve</option>
+                    <option value="cbd">CBD Oil Drops</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Quantity (grams/units):</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label>Payment Method:</label>
+                <div class="radio-group">
+                    <input type="radio" id="cash" name="payment" value="cash" required>
+                    <label for="cash">Cash on Delivery</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="card" name="payment" value="card" required>
+                    <label for="card">Card (Speedpoint on Delivery)</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Submit Order</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Thembe jr.Dyantyi (st10438018).Academic Project.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
